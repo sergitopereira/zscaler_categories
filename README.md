@@ -5,42 +5,42 @@ Updates Zscaler ZIA dbCategorizedUrls urls of a given custom category
 # Run Locally
 ```bash
 # Clone repo
-git clone https://github.com/sergitopereira/det.git
+git clone https://github.com/sergitopereira/zscaler_categories.git
 
 # Install dependencies
-pip3 install -r det/requirements.txt
+pip3 install -r zscaler_categories/requirements.txt
 
 # Usage
-python3 det -h
+python3 zscaler_categories -h
 ```
 
 # Run in a Virtual Environment
 ```bash
 # Clone repo
-git clone https://github.com/sergitopereira/det.git
+git clone https://github.com/sergitopereira/zscaler_categories.git
 
 # Create and enter virtual environment
-python3 -m venv det/venv
-source det/venv/bin/activate
+python3 -m venv zscaler_categories/venv
+source zscaler_categories/venv/bin/activate
 
 # Install dependencies
-pip install -r det/requirements.txt
+pip install -r zscaler_categories/requirements.txt
 
 # Usage
-python det -h
+python zscaler_categories -h
 ```
 # Run with Docker
 
 ```bash
 # Download Dockerfile
-curl -O https://raw.githubusercontent.com/sergitopereira/det/master/Dockerfile
+curl -O https://raw.githubusercontent.com/sergitopereira/zscaler_categories/master/Dockerfile
 
 # Build Image and Run Container
-docker build -t det .  
-docker run -it det bash
+docker build -t zscaler_categories.  
+docker run -it zscaler_categories bash
 
 # Usage (program is in /app/)
-python app -h
+python zscaler_categories -h
 ```
 
 ---
