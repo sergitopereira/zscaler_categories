@@ -36,12 +36,15 @@ python zscaler_categories -h
 curl -O https://raw.githubusercontent.com/sergitopereira/zscaler_categories/master/Dockerfile
 
 # Build Image and Run Container
-docker build -t zscaler_categories.  
+docker build -t zscaler_categories .  
 docker run -it zscaler_categories bash
 
 # Usage (program is in /app/)
 python zscaler_categories -h
 ```
+# Usage
+
+python zscaler_categories 
 
 ---
 
