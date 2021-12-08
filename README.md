@@ -43,9 +43,9 @@ docker run -it zscaler_categories bash
 python zscaler_categories -h
 ```
 # Usage
-
-python zscaler_categories 
-
+```bash
+python zscaler_categories zs_cats -u {email} -p {password} -a {apikey} -c {cloud} -cat {cat_name} -f {file}
+```
 ---
 
 # Credits
