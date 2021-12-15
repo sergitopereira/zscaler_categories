@@ -7,7 +7,7 @@ def initialize_parser():
     subparsers = parser.add_subparsers(dest="command")
     parser_cats = subparsers.add_parser(
         "zs_cats",
-        help="Update give custom category",
+        help="Update given custom category",
     )
     parser_cats.add_argument('-a', '--apikey',
                              help='ZIA API key',
